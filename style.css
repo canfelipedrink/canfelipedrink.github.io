@@ -1,10 +1,46 @@
 h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
   font-size: 80px;
+  color: #FFF;
+  text-shadow: 10px 10px 2px green,
+               10px 10px 4px blue,
+               10px 10px 6px red,
+               0 0 4px black;
+}
+
+.emoji {
+  position: absolute;
+  top: 0;
+  left: 3%;
+  font-size: 30vmin;
+  z-index: -1;
+  text-shadow: none;
+  background: none;
 }
 
 p {
   text-align: center;
   font-size: 60px;
+  color: #FFF;
+  text-shadow: 10px 10px 2px green,
+               10px 10px 4px blue,
+               10px 10px 6px red,
+               0 0 4px black;
+}
+
+body {
+  display: flex;
+  background-image: url('felipe.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-left: 0;
+  min-height: 100vh;
+}
+
+main {
+  margin: auto;
+  width: 90%;
 }
